@@ -1,0 +1,49 @@
+.navbar {
+  background-color: #c547b0; 
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.connect-button,
+.disconnect-button {
+  font-weight: bold;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 5px 15px;
+  margin-left: auto;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.connect-button:hover,
+.disconnect-button:hover {
+  background-color: #fff;
+  color: #c547b0;
+}
+
+.disconnect-button {
+  background-color: #000000;
+  border-color: #fff;
+}
+
+.logo {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.nav-link {
+  font-weight: bold;
+  margin-left: 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #e6e6e6;
+  text-decoration: underline;
+}
