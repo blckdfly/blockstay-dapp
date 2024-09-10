@@ -1,5 +1,5 @@
 [[package]]
-name = "airbnb-contract"
+name = "blockstay-contract"
 source = "member"
 dependencies = ["std"]
 
