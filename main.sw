@@ -29,18 +29,15 @@ use std::{
 use ::interface::{HotelBooking, Info};
 
 storage {
-
     booking_history: StorageMap<(Identity, u64), u64> = StorageMap {},
 
     property_availability: StorageMap<(u64, u64, u64), bool> = StorageMap {},
-
 
     property_info: StorageMap<u64, PropertyInfo> = StorageMap {},
 
     property_images: StorageMap<u64, PropertyImage> = StorageMap {},
 
     booking_info: StorageMap<u64, BookingInfo> = StorageMap {},
-
 
     total_property_listed: u64 = 0,
 
