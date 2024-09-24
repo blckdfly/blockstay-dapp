@@ -15,3 +15,5 @@ Blockstay DApp is a decentralized application designed to revolutionize the way 
 - **Blockchain**: [Fuel Network](https://fuel.network/) or other blockchain platforms for decentralized data storage and smart contract execution.
 - **Smart Contracts**: Written in [Sway](https://fuellabs.github.io/sway/v0.63.5/book/) to handle rental agreements and transactions.
 - **Frontend**: This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) for a responsive and dynamic user experience.
+
+this project from courses at [metaschool](https://metaschool.so/)
